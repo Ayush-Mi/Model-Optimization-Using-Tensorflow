@@ -5,8 +5,9 @@
 ## Results
 
 #### Rsenet50
-| :---: |  :---: |  :---: |  :---: |
+
 |  | Dynamic Range Optimization | Float16 Optimization | Int8 Optimization |
+| :---: |  :---: |  :---: |  :---: |
 | Time to Quantize | | | |
 | Accuracy before Optimization | | |
 | Accuracy after Optimization | | |
@@ -14,8 +15,9 @@
 | Inference time after Optimization | | |
 
 #### VGG16
-| :---: |  :---: |  :---: |  :---: |
+
 |  | Dynamic Range Optimization | Float16 Optimization | Int8 Optimization |
+| :---: |  :---: |  :---: |  :---: |
 | Time to Quantize | | | | | | | | | |
 | Accuracy before Optimization | | | | | | |
 | Accuracy after Optimization | | | | | | |
@@ -23,8 +25,9 @@
 | Inference time after Optimization | | | | | | |
 
 #### MobileNet_v2
-| :---: |  :---: |  :---: |  :---: |
+
 |  | Dynamic Range Optimization | Float16 Optimization | Int8 Optimization |
+| :---: |  :---: |  :---: |  :---: |
 | Time to Quantize | | | | | | | | | |
 | Accuracy before Optimization | | | | | | |
 | Accuracy after Optimization | | | | | | |
