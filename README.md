@@ -1,7 +1,10 @@
 # Effects of Quantizing pre-trained Deep Learning Model using Tensorflow
 
+## Desciption
 
-|  | ResNet50 | |
+## Results
+
+#### Rsenet50
 | :---: |  :---: |  :---: |  :---: |
 |  | Dynamic Range Optimization | Float16 Optimization | Int8 Optimization |
 | Time to Quantize | | | |
@@ -10,8 +13,17 @@
 | Inference time before Optimizaiton | | |
 | Inference time after Optimization | | |
 
-|  | VGG16 | |
-| :---: | 
+#### VGG16
+| :---: |  :---: |  :---: |  :---: |
+|  | Dynamic Range Optimization | Float16 Optimization | Int8 Optimization |
+| Time to Quantize | | | | | | | | | |
+| Accuracy before Optimization | | | | | | |
+| Accuracy after Optimization | | | | | | |
+| Inference time before Optimizaiton | | | | | | |
+| Inference time after Optimization | | | | | | |
+
+#### MobileNet_v2
+| :---: |  :---: |  :---: |  :---: |
 |  | Dynamic Range Optimization | Float16 Optimization | Int8 Optimization |
 | Time to Quantize | | | | | | | | | |
 | Accuracy before Optimization | | | | | | |
