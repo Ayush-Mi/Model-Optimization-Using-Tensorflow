@@ -41,8 +41,8 @@ With the above setup, following observations were made:
 | :---: |  :---: |  :---: |  :---: | :---: |
 | Time to Quantize in mins | - | | | 3.49 |
 | Size in Mb | 553.5 | 138.5 | 276.5 | 138.5 |
-| Accuracy | 75.79% | 75.97 % | 75.79 % | |
-| Inference time | 109.6 ms | 101.7 ms | 147.54 ms | |
+| Accuracy | 75.79% | 75.97 % | 75.79 % | 39.87 % |
+| Inference time | 109.6 ms | 101.7 ms | 147.54 ms | 279.36 ms |
 
 #### MobileNet_v2
 
@@ -50,5 +50,5 @@ With the above setup, following observations were made:
 | :---: |  :---: |  :---: |  :---: | :---: |
 | Time to Quantize in mins | - | | | 1.1 |
 | Size in Mb | 14.6 | 3.8 | 7 | 4 |
-| Accuracy | 6.59 % | 6.24 % | 6.59 % | |
-| Inference time | 36.4 ms | 9.1 ms | 13.55 ms | |
+| Accuracy | 6.59 % | 6.24 % | 6.59 % | 3.16 % |
+| Inference time | 36.4 ms | 9.1 ms | 13.55 ms | 13.99 ms|
