@@ -6,9 +6,11 @@ This repo examines the effect of post training quantization on the performance o
 
 Here we have taken three image classification model pretrained on Imagenet dataset from keras api and performed post training quantization using Tensorflow API. Resnet50, Vgg16 and Mobilenetv2 were examined for the change in accuracy, inference time, size of the model and the time it take to quantize them. The validation data from  was used to test. All the experiments were performed on Mac M1-pro 32gb.
 
-For testing we have used the validation data from [Imagenette] (https://github.com/fastai/imagenette) which has around 3900 images belonging to 10 classes from original imagenet data. All the experiments were performed on Mac M1 pro 32gb and the images were passed to the model with the batch size of 1.
+For testing we have used the validation data from [Imagenette](https://github.com/fastai/imagenette) which has around 3900 images belonging to 10 classes from original imagenet data. All the experiments were performed on Mac M1 pro 32gb and the images were passed to the model with the batch size of 1.
 
 ## Dependencies
+
+Downlaod [Imagenette](https://github.com/fastai/imagenette) and place it in `val/` folder whilw Quantized models will be stored in `./Models` folder. Below libraries are the minimum requirement:
 
 - Python 3.5+
 - Tensorflow 2.7+
