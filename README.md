@@ -1,8 +1,30 @@
 # Effects of Quantizing pre-trained Deep Learning Model using Tensorflow
 
+This repo examines the effect of post training quantization on the performance of pretrained kera models using Tensorflow API.
+
 ## Desciption
 
+Here we have taken three image classification model pretrained on Imagenet dataset from keras api and performed post training quantization using Tensorflow API. Resnet50, Vgg16 and Mobilenetv2 were examined for the change in accuracy, inference time, size of the model and the time it take to quantize them. The validation data from  was used to test. All the experiments were performed on Mac M1-pro 32gb.
+
+For testing we have used the validation data from [Imagenette] (https://github.com/fastai/imagenette) which has around 3900 images belonging to 10 classes from original imagenet data. All the experiments were performed on Mac M1 pro 32gb and the images were passed to the model with the batch size of 1.
+
+## Dependencies
+
+- Python 3.5+
+- Tensorflow 2.7+
+- Numpy
+- Tqdm
+
 ## Results
+
+With the above setup, following observations were made:
+- Dynamic range quantization reduces the model size to a quarter of the original
+- Float16 quantization reduces the model size to half of the original
+- Int8 quantization is almost equal to dynamic range quantization
+- Mobilenet v2 pretrained on imagenet data showed poor performance throughout the evaluation
+- Inference time for different quantization methods depended upon the model to be quantized 
+- Int8 quantization requires a subset of original train data to adjust the weights of model while performing the quantization
+
 
 #### Rsenet50
 
